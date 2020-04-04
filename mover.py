@@ -1,9 +1,9 @@
 import os
 import time
-from watchdog.observers import Observer
+from watchdog.observers import Observer #install watchdog
 from watchdog.events import FileSystemEventHandler
 
-path=r'C:\Users\amaan\Downloads'
+path=r'C:\Users\[USER NAME]\Downloads'
 
 def application():  
     files=os.listdir(path)
